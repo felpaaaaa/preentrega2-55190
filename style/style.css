@@ -59,7 +59,7 @@ li {
 }
 
 .p__footer {
-    
+
     margin-right: 10px;
     margin-bottom: 40px;
     color: rgb(0, 0, 0);
@@ -132,6 +132,14 @@ p {
     width: 600px;
 }
 
+.flex__container--main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+
+
 .main__bg--nosotros {
     background-image: linear-gradient(to right bottom, #d8dce3, #9f9fa4, #69676a, #363435, #000000);   
     height: 80vh;
@@ -151,7 +159,6 @@ p {
 
 .p__main--nosotros {
     color: black;
-    width: 400px;
     text-align: center;
     color: #aeec38; background-image: -webkit-linear-gradient(0deg, #aeec38 80%, #24ca19 79%, #94c353 74%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;
 }
